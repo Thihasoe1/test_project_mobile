@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.test_project.app-mergeDebugResources-24:/values-ky/values-ky.xml",
+            "outputFile": "com.example.test_project_mobile.app-mergeDebugResources-24:/values-ky/values-ky.xml",
             "map": [
                 {
                     "source": "/Users/pitklim/.gradle/caches/8.10.2/transforms/dfc2fbca530748e569b0737b09fa016f/transformed/core-1.13.1/res/values-ky/values-ky.xml",

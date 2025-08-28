@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:test_project/core/constants/app_colors.dart';
-import 'package:test_project/core/custom_widgets/custom_text.dart';
-import 'package:test_project/screens/home/widgets/home_app_bar.dart';
+import 'package:test_project_mobile/core/constants/app_colors.dart';
+import 'package:test_project_mobile/core/custom_widgets/custom_text.dart';
+import 'package:test_project_mobile/screens/home/widgets/home_app_bar.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

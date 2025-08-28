@@ -476,13 +476,13 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "test_project",
+      "name": "test_project_mobile",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.7"
     }
   ],
-  "generated": "2025-08-28T09:20:46.322639Z",
+  "generated": "2025-08-28T09:55:30.368176Z",
   "generator": "pub",
   "generatorVersion": "3.7.0",
   "flutterRoot": "file:///Users/pitklim/flutter",
