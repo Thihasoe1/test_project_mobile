@@ -40,7 +40,8 @@
         android:debuggable="true"
         android:extractNativeLibs="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="test_project_mobile" >
+        android:label="test_project_mobile"
+        android:usesCleartextTraffic="true" >
         <activity
             android:name="com.example.test_project_mobile.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"

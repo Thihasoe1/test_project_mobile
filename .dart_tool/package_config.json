@@ -230,6 +230,12 @@
       "languageVersion": "3.4"
     },
     {
+      "name": "intl",
+      "rootUri": "file:///Users/pitklim/.pub-cache/hosted/pub.dev/intl-0.20.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
       "name": "io",
       "rootUri": "file:///Users/pitklim/.pub-cache/hosted/pub.dev/io-1.0.5",
       "packageUri": "lib/",
@@ -482,7 +488,7 @@
       "languageVersion": "3.7"
     }
   ],
-  "generated": "2025-08-28T09:55:30.368176Z",
+  "generated": "2025-08-29T05:53:13.435597Z",
   "generator": "pub",
   "generatorVersion": "3.7.0",
   "flutterRoot": "file:///Users/pitklim/flutter",

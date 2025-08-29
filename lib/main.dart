@@ -1,15 +1,24 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:provider/provider.dart';
+import 'package:test_project_mobile/providers/product_provider.dart';
 import 'package:test_project_mobile/routes/app_routes.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
-    statusBarColor: Colors.transparent,
-    statusBarBrightness: Brightness.dark,
-    statusBarIconBrightness: Brightness.dark,
-  ));
-  runApp(const MyApp());
+  SystemChrome.setSystemUIOverlayStyle(
+    const SystemUiOverlayStyle(
+      statusBarColor: Colors.transparent,
+      statusBarBrightness: Brightness.dark,
+      statusBarIconBrightness: Brightness.dark,
+    ),
+  );
+  runApp(
+    ChangeNotifierProvider(
+      create: (context) => ProductProvider()..initialize(),
+      child: const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
